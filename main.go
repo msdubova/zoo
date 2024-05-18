@@ -14,7 +14,12 @@ type Cage struct {
 	Animals []Animal
 }
 
-func addAnimalToCage(animal Animal, cage Cage) Cage {
+// func addAnimal(animal Animal, cage Cage) Cage {
+// 	cage.Animals = append(cage.Animals, animal)
+// 	return cage
+// }
+
+func (cage Cage) addAnimal(animal Animal) Cage {
 	cage.Animals = append(cage.Animals, animal)
 	return cage
 }
