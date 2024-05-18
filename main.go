@@ -1,8 +1,16 @@
 package main
 
+type Meal string
+
+const (
+	Meat   Meal = "Meat"
+	Veggie Meal = "Veggie"
+)
+
 type Animal struct {
 	Name  string
 	Voice string
+	Meal  Meal
 }
 
 type Zookeeper struct {
