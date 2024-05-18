@@ -13,3 +13,8 @@ type Zookeeper struct {
 type Cage struct {
 	Animals []Animal
 }
+
+func addAnimalToCage(animal Animal, cage Cage) Cage {
+	cage.Animals = append(cage.Animals, animal)
+	return cage
+}
