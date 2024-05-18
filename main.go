@@ -1,16 +1,15 @@
 package main
 
-import "fmt"
-
-func main () {
-
+type Animal struct {
+	Name  string
+	Voice string
 }
 
+type Zookeeper struct {
+	Name string
+	Age  int
+}
 
-type Animal struct {
-	name string
-	age int
-	type 
-	
-
+type Cage struct {
+	Animals []Animal
 }
