@@ -32,3 +32,10 @@ func (zookeeper Zookeeper) CollectAnimals(cages ...Cage) []Animal {
 
 	return allAnimals
 }
+
+func main() {
+	lion := Animal{Name: "Lion", Voice: "RoarR"}
+	monkey := Animal{Name: "Monkey", Voice: "Ooh ooh aah aah"}
+	snake := Animal{Name: "Snake", Voice: "Shhhh"}
+
+}
